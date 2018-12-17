@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: white;
+}
+
+.Calculator {
+  width: 380px;
+  height: 470px;
+  margin: 0 auto;
+  border: 1px solid rgb(128, 128, 128);
+  border-radius: 3px;
+}
+
+.Calculator input {
+background: rgba(0, 0, 0, 0.877);
+width: 100%;
+height: 80px;
+font-size: 40px;
+color: white;
+cursor: pointer;
+}
+
+.knopkalar {
+  width: 15px;
+  height: 15px;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 80px 80px 80px 80px;
+  grid-template-rows: 65px 65px 65px 65px;
+  grid-gap: 10px;
+}
+
+.KNOPKALAR {
+  background: white;
+  border: 1px solid gray;
+  padding: 15px;
+  border-radius: 4px;
+  font-size: 20px;
+  font-style: bold;
+}
+
+.is-beraberlik {
+grid-row: span 4;
+background-color: rgb(0, 140, 255);
+}
+#AC {
+  border-radius: 4px;
+  font-size: 20px;
+  font-style: bold;
+  background-color: rgba(255, 0, 0, 0.726);
+}
+.is-BAS {
+  color: rgb(0, 140, 255);
+}
